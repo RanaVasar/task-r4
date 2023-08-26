@@ -363,6 +363,7 @@ line-height: 32px; /* 200% */
     display: flex;
     padding: 50px 20px 50px 20px;
     justify-content: space-between;
+    margin-top: 50px;
 }
 .section6-right {
     display: flex;
@@ -422,7 +423,8 @@ line-height: 32px; /* 200% */
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px 20px;
+    padding: 50px 20px 50px 20px;
+    margin-top: 50px;
 }
 .contact-section h5 {
     color: #064273;
@@ -484,6 +486,7 @@ margin-left: 400px;
     display: flex;
     flex-direction: column;
     padding: 50px 20px 50px 20px;
+    margin-top: 50px;
 }
 .testimonial-top {
     display: flex;
@@ -561,6 +564,7 @@ line-height: 32px; /* 200% */
     padding: 100px 20px 50px 20px;
     padding-top: 100px;
     justify-content: space-between;
+    margin-top: 50px;
 }
 .talk-left {
     display: flex;
@@ -896,6 +900,8 @@ line-height: 32px; /* 200% */
     }
     .talk-left {
         width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media (max-width: 400px) {
@@ -930,29 +936,60 @@ line-height: 32px; /* 200% */
     }
     .main-section h1 {
         font-size: 32px;
+        text-align: center;
     }
     .section2-top h1 {
         font-size: 40px;
+        text-align: center;
     }
     .section3 h3 {
         font-size: 32px;
+        text-align: center;
     }
     .section4-top h1 {
         font-size: 32px;
+        text-align: center;
     }
     .section5-left h1 {
         font-size: 32px;
+        text-align: center;
     }
     .section6-top h3 {
         font-size: 32px;
+        text-align: center;
     }
     .contact-section h1 {
         font-size: 32px;
+        text-align: center;
     }
     .testimonial-top h1 {
         font-size: 32px;
+        text-align: center;
     }
     .talk-left h1 {
         font-size: 32px;
+        text-align: center;
+    }
+    .section3 form {
+        display: flex;
+        flex-direction: column;
+    }
+    .section6-bottom {
+        justify-content: center;
+    }
+    .section2-top p {
+        text-align: center;
+    }
+    .section5-left h6 {
+        text-align: center;
+    }
+    .section5-left p {
+        text-align: center;
+    }
+    .section6-top p {
+        text-align: center;
+    }
+    .talk-left p {
+        text-align: center;
     }
 }
